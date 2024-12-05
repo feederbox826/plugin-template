@@ -1,0 +1,12 @@
+name: awesome-py
+description: Logs test messages to stash
+version: 1.0.0
+exec:
+  - python
+  - "{pluginDir}/awesome-py.py"
+interface: raw
+tasks:
+  - name: Log Test
+    description: Test logging facilities
+    defaultArgs:
+      mode: test

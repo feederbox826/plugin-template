@@ -1,0 +1,8 @@
+name: awesome-ui
+description: Adds an alert and customization to stash
+version: 1.0.0
+ui:
+  javascript:
+  - awesome-ui.js
+  css:
+  - awesome-ui.css
